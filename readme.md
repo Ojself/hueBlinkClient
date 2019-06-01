@@ -6,7 +6,7 @@
 - [Disclaimer](#disclaimer)
 - [Stack](#stack)
 - [What you need](#what-you-need)
-- [Step 1: Install Node on Raspberry Pi](#step-1:-install-node-on-raspberry-pi)
+- [Step 1: Install Node on Raspberry Pi](#step-1)
 - [Step 2: Obtain Philips username](#step-2:-obtain-philips-username)
 - [Step 3: Create the server](#step-3:-create-the-server)
 - [Step 4: Port forward your Raspberry Pi](#step-4:-port-forward-your-raspberry-pi)
