@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gimmie attention!</title>
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="">
+      <div id="title-wrapper">
+        <h1>
+          <b>
+            <span>
+              GIMMIE <br />
+              SUMMON <br />
+              REQUEST <br />
+              COMMAND <br />
+              SIGNAL <br />
+              ORDER <br />
+              DEMAND <br />
+              INQUIRE <br />
+              CLAIM <br />
+              INVOKE <br />
+            </span>
+          </b>
+          ATTENTIO<span onclick="showInfo()">N</span>!
+        </h1>
+      </div>
+
+      <div id="button-wrapper">
+        <button id="main-button" onclick="runApi()">LIGHT ME UP!</button>
+      </div>
+    </div>
+    <audio id="ha">
+      <source src="public/ha.ogg" type="audio/ogg" />
+    </audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
