@@ -61,7 +61,7 @@ When inside the CLIP, type in '/api' in the URL-form and
 change out the USERNAME with a username of your choosing.
 If you don't receive a username when you click **POST**, try clicking the physical Hue Bridge button and click **POST** again, you have 30 seconds to do so. Note down the received username.
 
-![alt text]([https://i.imgur.com/1f6MJ8A.png](https://i.imgur.com/1f6MJ8A.png)
+![Philips Hue CLIP]([https://i.imgur.com/1f6MJ8A.png)
 
 If you wanna play around in the CLIP you can try
 **GET:** `/api/<USERNAME40CHARLONG>/lights`
