@@ -201,15 +201,3 @@ $ git init
 # Set your GitHub repository as the "origin" remote repository
 $ git remote add origin <https://github.com/user/my-project.git>
 ```
-
-And here's a flow chart of the process because why not
-
-```mermaid
-graph LR
-A[User] -- GET request --> B((Raspberry Pi / Node))
-B -- PUT request --> C{Philips Hue Bridge}
-C --> D((Philips Hue Light))
-C -- 200 OK --> B
-B -- 200 OK --> A
-
-```
