@@ -16,10 +16,10 @@
 
 # Links
 
-App [Github pages](https://ojself.github.io/hueBlinkClient/)
-Client [repository](https://github.com/Ojself/hueBlinkClient)
-Server [repository](https://github.com/Ojself/hueBlinkClient)
-How it [looks](https://www.youtube.com/watch?v=R1lUW-AwTDc) like
+- App [Github pages](https://ojself.github.io/hueBlinkClient/)
+- Client [repository](https://github.com/Ojself/hueBlinkClient)
+- Server [repository](https://github.com/Ojself/hueBlinkClient)
+- How it [looks](https://www.youtube.com/watch?v=R1lUW-AwTDc) like
 
 # Disclaimer
 
