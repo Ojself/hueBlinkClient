@@ -64,7 +64,7 @@ b {
   text-align: right;
   overflow: hidden;
   position: relative;
-  height: 8vh;
+  height: 75px;
 }
 b span {
   display: inline-block;
@@ -86,28 +86,28 @@ b span {
     top: -75px;
   }
   20% {
-    top: -145px;
+    top: -150px;
   }
   30% {
-    top: -220px;
+    top: -225px;
   }
   40% {
-    top: -295px;
+    top: -300px;
   }
   50% {
-    top: -365px;
+    top: -375px;
   }
   60% {
-    top: -440px;
+    top: -450px;
   }
   70% {
-    top: -515px;
+    top: -525px;
   }
   80% {
-    top: -690px;
+    top: -600px;
   }
   90% {
-    top: -665px;
+    top: -675px;
   }
 }
 
