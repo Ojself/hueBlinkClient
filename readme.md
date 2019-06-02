@@ -41,16 +41,32 @@ I hope the sticklers will forgive me.
 - Philips Hue Bridge
 - ~~A girlfriend~~
 
+<<<<<<< HEAD
+
 # Step 1
 
 ### Install Node on Raspberry Pi
 
+=======
+
+# Step 1: Install NodeJS on Raspberry Pi
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
+
 I suggest following
 [W3Schools](https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp) tutorial on how to install NodeJS on your Raspberry Pi. Please note down your Raspberry Pi **username**, **password** and **IP** for later usage
+
+<<<<<<< HEAD
 
 # Step 2
 
 ### Obtain Philips username
+
+=======
+
+# Step 2: Obtain Philips username
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 Go to your Philips Hue ip adress + /debug/clip.html
 Mine is [http://192.168.178.74/debug/clip.html](http://192.168.178.74/debug/clip.html), but yours could be different. If you don't have your address, you could go into your router and look for Philips Hue (default name) and get the IP from there.
@@ -72,7 +88,13 @@ OR `{"on": false}` for turning it OFF
 
 # Step 3: Create a server
 
+<<<<<<< HEAD
+
 ### Create the server
+
+=======
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 [This](https://github.com/Ojself/hueBlinkServer) repository has the basic stuff already set up with additional authentication and MongoDB available.
 
@@ -129,9 +151,17 @@ All the good stuff can be changed inside the routes
 `server/routes/index.js`
 Check out this [repository](https://github.com/peter-murray/node-hue-api) to see what functions are available for your Philips Hue lights.
 
+<<<<<<< HEAD
+
 # Step 4
 
 ### Port forward your Raspberry Pi
+
+=======
+
+# Step 4: Port forward your Raspberry Pi
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 Port forwarding can be a bit tricky because every router is different and it's challenging to find a tutorial that fits to your exact router at home.
 This port forward [tutorial](https://www.youtube.com/watch?v=lSugZwBJ25g) was helpful for me, and might be for you. The tutorial shows how to set up SSH, but you also need HTTP and/or HTTPS as well.
@@ -144,9 +174,17 @@ eg:
 `$ ssh -p22 pi@<88.91.15.22>`
 After typing in your password when prompted, you should be connected to your Raspberry Pi through the internet.
 
+<<<<<<< HEAD
+
 # Step 5
 
 ### Transfer server to Raspberry Pi
+
+=======
+
+# Step 5: Transfer server to Raspberry Pi
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 [FileZilla](https://filezilla-project.org/) is a free ftp-solution which is great to transfer file to your Raspberry Pi. Enter the credentials for **Host** (your Philips Hue IP), **Username**(default: pi), **password** (default is empty) and **Port** (default: 22) and click 'connect'.
 
@@ -155,9 +193,17 @@ After typing in your password when prompted, you should be connected to your Ras
 When connected, upload your server by right-clicking the server folder and click 'upload'. Now, the whole folder is being transferred, including node-modules..
 When completed, you can delete the node-modules from the Raspberry Pi - we'll reinstall them later.
 
+<<<<<<< HEAD
+
 # Step 6
 
 ### Run the server
+
+=======
+
+# Step 6: Run the server
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 Connect to your Raspberry Pi the same way you did in Step 1, through Terminal or Putty:
 `$ ssh -p<PORT> <USERNAME>@<EXTERNALIP>`
@@ -179,9 +225,17 @@ and install the NPMs
 and rund the server
 `npm start`
 
+<<<<<<< HEAD
+
 # Step 7
 
 ### Create the client and deploy
+
+=======
+
+# Step 7: Create the client and deploy
+
+> > > > > > > 789671cf0a50eec9b84807dacd6c31eb83d0cff3
 
 Clone [this](https://github.com/Ojself/hueBlinkClient) repository and change the IP-address provided in the index.js with your own, external ip. Deploy it to github pages through settings on github.
 
