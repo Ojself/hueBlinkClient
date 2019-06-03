@@ -17,7 +17,7 @@ const showInfo = () => {
 const apiCall = () => {
   axios
     /* To future employers, this is not good practice. Let's create something more secure together:) */
-    .get('http://77.191.53.73:2525/startBlink')
+    .get('http://78.55.134.0:2525/startBlink')
     .then(function(response) {
       console.log(response);
     })
