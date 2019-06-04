@@ -15,6 +15,9 @@ const showInfo = () => {
 
 // Make a request for a user with a given ID
 const apiCall = () => {
+  console.log(
+    "due to dynamic ip, this will give you a network error if the app hasn't been pushed to github the last 6 hours"
+  );
   axios
     /* To future employers, this is not good practice. Let's create something more secure together:) */
     .get('http://78.55.134.0:2525/startBlink')
