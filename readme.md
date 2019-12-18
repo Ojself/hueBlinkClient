@@ -1,3 +1,6 @@
+[DEMO](http://yen.flesjoe.com/)
+[DEMO (video)](https://youtu.be/R1lUW-AwTDc)
+
 # Philips Hue API w/ Raspberry & NodeJS
 
 > now you can get my attention by making my whole room blink.
