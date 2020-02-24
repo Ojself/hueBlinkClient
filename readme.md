@@ -1,7 +1,9 @@
 [DEMO (Website)](http://yen.flesjoe.com/)
 
-[DEMO (video)](https://youtu.be/R1lUW-AwTDc)
 [![DEMO (video)](https://img.youtube.com/vi/R1lUW-AwTDc/0.jpg)](https://youtu.be/R1lUW-AwTDc)
+
+[DEMO (video)](https://youtu.be/R1lUW-AwTDc)
+
 
 # Philips Hue API w/ Raspberry & NodeJS
 
